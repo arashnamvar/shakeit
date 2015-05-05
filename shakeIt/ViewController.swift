@@ -8,14 +8,25 @@
 
 import UIKit
 import CoreMotion
+import AVFoundation
 
 class ViewController: UIViewController {
+    
+    var song_intro = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("shack", ofType: "mp3")!)
+//    var song = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("russ", ofType: "mp3")!)
+    var songAudio = AVAudioPlayer()
+    var songAudio2 = AVAudioPlayer()
     
     @IBOutlet weak var score: UILabel!
     
     var motionManager = CMMotionManager()
     
     override func viewDidLoad() {
+//        songAudio = AVAudioPlayer(contentsOfURL: song, error: nil)
+        songAudio2 = AVAudioPlayer(contentsOfURL: song_intro, error: nil)
+//        songAudio.prepareToPlay()
+        songAudio2.prepareToPlay()
+        
         motionManager.accelerometerUpdateInterval = 0.0001
         
         motionManager.startAccelerometerUpdatesToQueue(NSOperationQueue.currentQueue(), withHandler: { (accelerometerData: CMAccelerometerData!, error:NSError!) -> Void in self.outputAccelerationData(accelerometerData.acceleration)
@@ -65,6 +76,8 @@ class ViewController: UIViewController {
                 println("FINAL SCORE: \(score_game/2)")
         } else {
             score.text = "Your final score is \(score_game/2)"
+//            songAudio.play()
+            songAudio2.play()
 //            timer.invalidate()
         }
     }

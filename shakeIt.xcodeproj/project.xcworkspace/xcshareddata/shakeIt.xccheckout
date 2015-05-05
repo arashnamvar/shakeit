@@ -10,6 +10,8 @@
 	<string>shakeIt</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>BEFB8CD694BCD72871F81B5815B9DCA22C9AE313</key>
+		<string>https://github.com/arashnamvar/shakeit.git</string>
 		<key>D2D524A1244137CBAF209975C0570286AA2ACAB1</key>
 		<string>https://github.com/uyanga-gb/accelerometer.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>shakeIt.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D2D524A1244137CBAF209975C0570286AA2ACAB1</key>
+		<key>BEFB8CD694BCD72871F81B5815B9DCA22C9AE313</key>
 		<string>../..</string>
+		<key>D2D524A1244137CBAF209975C0570286AA2ACAB1</key>
+		<string>../../../accelerometer</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/uyanga-gb/accelerometer.git</string>
+	<string>https://github.com/arashnamvar/shakeit.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D2D524A1244137CBAF209975C0570286AA2ACAB1</string>
+	<string>BEFB8CD694BCD72871F81B5815B9DCA22C9AE313</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>D2D524A1244137CBAF209975C0570286AA2ACAB1</string>
 			<key>IDESourceControlWCCName</key>
 			<string>accelerometer</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BEFB8CD694BCD72871F81B5815B9DCA22C9AE313</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Take%20A%20Load%20Off</string>
 		</dict>
 	</array>
 </dict>

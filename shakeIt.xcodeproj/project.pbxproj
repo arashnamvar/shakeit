@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7062DB201AF85CDF004AD909 /* shack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7062DB1F1AF85CDF004AD909 /* shack.mp3 */; };
+		7062DB221AF85D9F004AD909 /* russ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7062DB211AF85D9F004AD909 /* russ.mp3 */; };
 		F16415941AF7E76B009A6192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16415931AF7E76B009A6192 /* AppDelegate.swift */; };
 		F16415961AF7E76B009A6192 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16415951AF7E76B009A6192 /* ViewController.swift */; };
 		F16415991AF7E76B009A6192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16415971AF7E76B009A6192 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7062DB1F1AF85CDF004AD909 /* shack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shack.mp3; path = ../../shack.mp3; sourceTree = "<group>"; };
+		7062DB211AF85D9F004AD909 /* russ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = russ.mp3; path = ../../russ.mp3; sourceTree = "<group>"; };
 		F164158E1AF7E76B009A6192 /* shakeIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shakeIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16415921AF7E76B009A6192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F16415931AF7E76B009A6192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 		F16415901AF7E76B009A6192 /* shakeIt */ = {
 			isa = PBXGroup;
 			children = (
+				7062DB211AF85D9F004AD909 /* russ.mp3 */,
+				7062DB1F1AF85CDF004AD909 /* shack.mp3 */,
 				F16415931AF7E76B009A6192 /* AppDelegate.swift */,
 				F16415951AF7E76B009A6192 /* ViewController.swift */,
 				F16415971AF7E76B009A6192 /* Main.storyboard */,
@@ -197,6 +203,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F16415991AF7E76B009A6192 /* Main.storyboard in Resources */,
+				7062DB221AF85D9F004AD909 /* russ.mp3 in Resources */,
+				7062DB201AF85CDF004AD909 /* shack.mp3 in Resources */,
 				F164159E1AF7E76B009A6192 /* LaunchScreen.xib in Resources */,
 				F164159B1AF7E76B009A6192 /* Images.xcassets in Resources */,
 			);
