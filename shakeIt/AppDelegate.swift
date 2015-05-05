@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Take A Load Off
+//  shakeIt
 //
-//  Created by Arash Namvar on 5/4/15.
-//  Copyright (c) 2015 Arash Namvar. All rights reserved.
+//  Created by uyanga on 5/4/15.
+//  Copyright (c) 2015 uyanga. All rights reserved.
 //
 
 import UIKit

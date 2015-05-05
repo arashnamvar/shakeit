@@ -1,15 +1,15 @@
 //
-//  Take_A_Load_OffTests.swift
-//  Take A Load OffTests
+//  shakeItTests.swift
+//  shakeItTests
 //
-//  Created by Arash Namvar on 5/4/15.
-//  Copyright (c) 2015 Arash Namvar. All rights reserved.
+//  Created by uyanga on 5/4/15.
+//  Copyright (c) 2015 uyanga. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class Take_A_Load_OffTests: XCTestCase {
+class shakeItTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
